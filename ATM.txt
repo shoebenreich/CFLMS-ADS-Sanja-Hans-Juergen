@@ -15,13 +15,13 @@ d=10
 IF Sum - a >= 0 & integer && countofNotesA < 0-> sum = sum - a & countofNotesA--
 else if
 
-	sum - b >= 0 & integer -> sum = sum - b & countofNotesB--
+	sum - b > 0 & integer -> sum = sum - b & countofNotesB--
 else if
 
-	sum - c >= 0 & integer -> sum = sum - c & countofNotesC--
+	sum - c > 0 & integer -> sum = sum - c & countofNotesC--
 else if
 
-	sum - d >= 0 & integer -> sum = sum - a & countofNotesA--
+	sum - d > 0 & integer -> sum = sum - a & countofNotesA--
 	
 END IF
 	
