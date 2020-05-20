@@ -1,0 +1,30 @@
+
+--Start--
+
+->variable randomNumber initiated with "0" -> a random Number is generated and stored in randomNumber
+
+->user input -> Is your input a number? 
+
+			-> YES -> input stored in variable userNumber
+
+			-> NO  -> Please enter a NUMBER
+			
+
+--Process--
+
+IF userNumber is bigger than computerNumber:
+
+		-> YES -> Your number is too high,please take a smaller number -> User input
+			
+		-> NO  -> IF userNumber is smaller than computerNumber: 
+			
+					-> YES -> Your number is too small, please enter a higher number -> User input
+							
+					-> NO  -> IF userNumber is equal to computerNumber:
+					
+					
+--Output--
+					
+								-> YES -> Congratulations, you guessed the number!
+								
+								-> NO -> Oops! There seems to be a problem. Please try again later.
