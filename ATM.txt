@@ -1,0 +1,31 @@
+
+--Start--
+
+initialize Sum variable
+user input > if number -> Sum
+else -> please input a number
+
+------------------------------------
+initialize variable a,b,c,d
+a=100
+b=50
+c=20
+d=10
+----------------------------------------
+IF Sum - a >= 0 & integer && countofNotesA < 0-> sum = sum - a & countofNotesA--
+else if
+
+	sum - b >= 0 & integer -> sum = sum - b & countofNotesB--
+else if
+
+	sum - c >= 0 & integer -> sum = sum - c & countofNotesC--
+else if
+
+	sum - d >= 0 & integer -> sum = sum - a & countofNotesA--
+	
+END IF
+	
+------------------------------------------
+
+
+
