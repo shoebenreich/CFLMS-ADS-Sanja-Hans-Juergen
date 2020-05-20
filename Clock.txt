@@ -1,0 +1,33 @@
+
+--Start--
+
+Initialize variables 
+User input -> check if input is a number
+if no -> please input number 
+
+--Process--
+
+if yes -> time / 60 
+sum -> minutes = integer and seconds = residue (for e.g 0.66667)
+
+->seconds to output
+IF minutes < 1 go directly to output else to next step
+
+
+minutes / 60
+sum - > hours = integer and minutes = residue * 60
+ 
+->minutes to output
+IF hours < 1 go directly to output else to next step
+
+hours / 24
+sum - > days = integer and hours = residue *24
+
+-> hours to output
+IF days < 1 go directly to output else to next step
+
+days / 7
+sum - > weeks = integer and hours = residue * 7
+IF days < 1 go directly to output else to next step
+
+-> weeks to output
